@@ -1,0 +1,25 @@
+{
+  "name": "bg3helper",
+  "displayName": "bg3helper",
+  "description": "txt",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "txt",
+      "aliases": ["txt"],
+      "extensions": ["txt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "txt",
+      "scopeName": "txt",
+      "path": "./syntaxes/txt.tmLanguage.json"
+    }]
+  }
+}
