@@ -2,9 +2,14 @@
   "name": "bg3helper",
   "displayName": "bg3helper",
   "description": "txt",
-  "version": "0.0.1",
+  "version": "0.0.5",
+  "publisher": "shenlang",
   "engines": {
     "vscode": "^1.90.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shenyizhou/bg3helper.git"
   },
   "categories": [
     "Programming Languages"
@@ -18,7 +23,7 @@
     }],
     "grammars": [{
       "language": "txt",
-      "scopeName": "txt",
+      "scopeName": "text.html.txt",
       "path": "./syntaxes/txt.tmLanguage.json"
     }]
   }
